@@ -1,6 +1,3 @@
-#include<stdio.h>
-#include<math.h>
-#include<stdbool.h>
 int lengthOfLongestSubstring(char* s) {
     if(strlen(s)==0)
     return 0;
@@ -35,12 +32,4 @@ int lengthOfLongestSubstring(char* s) {
         p1++;
     }
     return max;
-}
-
-
-int main()
-{
-    int a =lengthOfLongestSubstring("b");
-    printf("%d",a);
-    return 0;
 }
